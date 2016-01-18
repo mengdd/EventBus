@@ -5,3 +5,12 @@ if (JavaVersion.current().isJava8Compatible()) {
         }
     }
 }
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.5.0'
+    }
+}
